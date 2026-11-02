@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>
+        <input id="searchInput" />
+    </div>
+    <div>
+        <select id="categoryInput">
+          <option value="">All Categories</option>
+        </select>
+        <p id="categoryError"></p>
+    </div>
+    <div><button id="resetBtn">Clear Filters</button></div>
+    <div id="productsContainer"></div>
+    <script type="module" src="JS/endpoints.js"></script>
+    <script type="module" src="JS/api.js"></script>
+    <script type="module" src="JS/rendering.js"></script>
+    <script type="module" src="JS/search.js"></script>
+    <script type="module" src="JS/category.js"></script>
+    <script type="module" src="JS/reset.js"></script>
+</body>
+
+</html>
